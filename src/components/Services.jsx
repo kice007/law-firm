@@ -5,11 +5,11 @@ import { ArrowUpRight } from 'lucide-react'
 import gavel from '../assets/gavel1.jpg'
 
 const services = [
-  { num: '01', name: 'Corporate & Business Law', desc: "From contract drafting and corporate governance to disputes and acquisitions, I protect your business interests at every stage of growth and conflict." },
-  { num: '02', name: 'Civil Litigation', desc: "When disputes escalate, I represent you with precision — building a compelling case and fighting relentlessly for the outcome you deserve." },
-  { num: '03', name: 'Criminal Defence', desc: "Facing criminal charges is serious. I provide a rigorous, strategic defence designed to protect your freedom, your reputation, and your future." },
-  { num: '04', name: 'Family And Divorce Law', desc: "I guide you through separation, custody arrangements, and asset division with clarity, discretion, and an unwavering focus on your well-being." },
-  { num: '05', name: 'Property & Real Estate Law', desc: "From acquisitions to boundary disputes and title issues, I safeguard your property rights with thorough legal counsel and decisive action." },
+  { num: '01', name: 'Corporate & Business law', desc: "From contract drafting and corporate governance to disputes and acquisitions, I protect your business interests at every stage of growth and conflict." },
+  { num: '02', name: 'Civil litigation', desc: "When disputes escalate, I represent you with precision — building a compelling case and fighting relentlessly for the outcome you deserve." },
+  { num: '03', name: 'Criminal defence', desc: "Facing criminal charges is serious. I provide a rigorous, strategic defence designed to protect your freedom, your reputation, and your future." },
+  { num: '04', name: 'Family & Divorce law', desc: "I guide you through separation, custody arrangements, and asset division with clarity, discretion, and an unwavering focus on your well-being." },
+  { num: '05', name: 'Property & Real estate law', desc: "From acquisitions to boundary disputes and title issues, I safeguard your property rights with thorough legal counsel and decisive action." },
 ]
 
 const ease = [0.23, 1, 0.32, 1]

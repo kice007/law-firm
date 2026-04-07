@@ -8,14 +8,14 @@ const ease = [0.23, 1, 0.32, 1]
 const steps = [
   {
     num: '01',
-    title: 'Discovery & Strategic Analysis',
+    title: 'Discovery & Strategic analysis',
     desc: 'I start with a thorough review of your situation — examining the facts, identifying risks, and mapping out the strongest legal approach available to you.',
     active: false,
     padding: '0 32px 32px 32px',
   },
   {
     num: '02',
-    title: 'Execution & Diligent Advocacy',
+    title: 'Execution & Diligent sdvocacy',
     desc: 'I take full ownership of your case — managing every filing, negotiation, and courtroom appearance so you can focus on your life while I handle the fight.',
     active: true,
     padding: '24px',

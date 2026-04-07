@@ -4,21 +4,21 @@ import { motion } from 'framer-motion'
 const ease = [0.23, 1, 0.32, 1]
 
 const quickLinks = [
-  { label: 'About',        id: 'about-me'     },
-  { label: 'Cases',        id: 'cases'        },
-  { label: 'Process',      id: 'process'      },
-  { label: 'Services',     id: 'services'     },
-  { label: 'FAQs',         id: 'faqs'         },
+  { label: 'About', id: 'about-me' },
+  { label: 'Cases', id: 'cases' },
+  { label: 'Process', id: 'process' },
+  { label: 'Services', id: 'services' },
+  { label: 'FAQs', id: 'faqs' },
   { label: 'Testimonials', id: 'testimonials' },
-  { label: 'Contact',      id: 'contact'      },
+  { label: 'Contact', id: 'contact' },
 ]
 
 const legalLinks = [
-  { label: 'Privacy Policy',      id: null },
-  { label: 'Terms & Conditions',  id: null },
-  { label: 'Services',            id: 'services'     },
-  { label: 'Testimonials',        id: 'testimonials' },
-  { label: 'Contact',             id: 'contact'      },
+  { label: 'Privacy Policy', id: null },
+  { label: 'Terms & Conditions', id: null },
+  { label: 'Services', id: 'services' },
+  { label: 'Testimonials', id: 'testimonials' },
+  { label: 'Contact', id: 'contact' },
 ]
 
 function scrollTo(id) {
@@ -122,10 +122,9 @@ export default function Footer() {
           {/* Connect */}
           <div className="flex flex-col" style={{ gap: '16px' }}>
             <span className="font-semibold text-white" style={{ fontSize: '14px', fontFamily: 'Inter, sans-serif' }}>
-              Connect Me
+              Connect me
             </span>
-            <span style={{ color: '#9A8B78', fontSize: '13px', fontFamily: 'Inter, sans-serif' }}>contact@alexander-law.com</span>
-            <span style={{ color: '#9A8B78', fontSize: '13px', fontFamily: 'Inter, sans-serif' }}>+1 (212) 555 0147</span>
+            <span style={{ color: '#9A8B78', fontSize: '13px', fontFamily: 'Inter, sans-serif' }}>contact@ledru-law.com</span>
             <span style={{ color: '#9A8B78', fontSize: '13px', fontFamily: 'Inter, sans-serif' }}>+1 (212) 555 0198</span>
             <span style={{ color: '#9A8B78', fontSize: '13px', lineHeight: 1.6, fontFamily: 'Inter, sans-serif' }}>
               1 Legal Plaza, Suite 1800<br />New York, NY 10004

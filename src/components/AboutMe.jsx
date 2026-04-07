@@ -94,7 +94,7 @@ export default function AboutMe() {
             transformOrigin: 'center',
           }}
         >
-          15k+
+          1k+
         </motion.span>
         {' '}cases handled across criminal, civil, and family law, I combine sharp legal strategy with a personal commitment to every case I take.
       </motion.div>

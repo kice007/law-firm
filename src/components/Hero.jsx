@@ -176,7 +176,7 @@ export default function Hero() {
             }}
           >
             <span style={{ color: '#FFFFFF', fontFamily: 'Inter, sans-serif', fontSize: '4.86vw', fontWeight: 300, lineHeight: 1.05, width: '8.26vw', textAlign: 'right' }}>
-              12K
+              +1K
             </span>
             <span style={{ color: '#FFFFFF', fontFamily: 'Inter, sans-serif', fontSize: '1.04vw', lineHeight: 1.65, width: '7.43vw', textAlign: 'right' }}>
               cases resolved
