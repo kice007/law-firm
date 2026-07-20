@@ -1,0 +1,4905 @@
+{
+  "version": "2.10",
+  "children": [
+    {
+      "type": "frame",
+      "id": "zToBd",
+      "x": -17,
+      "y": 225,
+      "name": "Law Firm ",
+      "clip": true,
+      "width": 1440,
+      "height": 6852,
+      "fill": "#F7F4EE",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "WMrel",
+          "name": "01 Hero",
+          "clip": true,
+          "width": "fill_container",
+          "height": 727,
+          "layout": "none",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "cHmHf",
+              "x": 0,
+              "y": 0,
+              "name": "BG Gradient",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./lawyers-office-classic-wooden-desk-law-books-justice-scale-embodying-legal-professionalism-329494949.png",
+                "mode": "fill"
+              },
+              "width": 1440,
+              "height": 955
+            },
+            {
+              "type": "frame",
+              "id": "REFhx",
+              "x": 0,
+              "y": 0,
+              "name": "overlay",
+              "clip": true,
+              "width": 1440,
+              "height": 727,
+              "fill": "#000000b3",
+              "layout": "none"
+            },
+            {
+              "type": "frame",
+              "id": "0L0mL",
+              "x": 0,
+              "y": 76,
+              "name": "Hero Content Row",
+              "width": 1440,
+              "height": 651,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "TSx4G",
+                  "name": "Hero Left",
+                  "width": 672,
+                  "height": 651,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": [
+                    60,
+                    80
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "AiiXC",
+                      "name": "Rating Badge",
+                      "height": 36,
+                      "cornerRadius": 50,
+                      "gap": 5,
+                      "padding": [
+                        8,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "DfelW",
+                          "name": "Frame 5",
+                          "clip": true,
+                          "width": 42,
+                          "height": 27,
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "o7tGW",
+                              "x": 3,
+                              "y": 4,
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "./facebook-logo-blue.png",
+                                "mode": "fill"
+                              },
+                              "width": 20,
+                              "height": 19
+                            },
+                            {
+                              "type": "ellipse",
+                              "id": "TwZLW",
+                              "x": 19,
+                              "y": 4,
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "./google.png",
+                                "mode": "fill"
+                              },
+                              "width": 20,
+                              "height": 19
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "Ukkgx",
+                          "name": "heroBadgeStars",
+                          "fill": "#B8963E",
+                          "content": "★★★★★",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "TTVV1",
+                          "name": "heroBadgeTxt",
+                          "fill": "#ffffffff",
+                          "content": "4.9 · Trusted Feedback",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "lbCCy",
+                      "name": "heroH1a",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Your trusted legal guidance",
+                      "lineHeight": 1.05,
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 70,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Cixn5",
+                      "name": "heroBody",
+                      "fill": "#ffffffff",
+                      "textGrowth": "fixed-width",
+                      "width": 447,
+                      "content": "Expert legal guidance for your personal and business needs. \nLet's build your strongest case together.",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "LEOH4",
+                      "name": "Hero CTAs",
+                      "gap": 20,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "EwKgc",
+                          "name": "Nav CTA",
+                          "width": 178,
+                          "height": 44,
+                          "fill": "#b8963e",
+                          "cornerRadius": 50,
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "lrLQJ",
+                              "name": "Next Btn",
+                              "width": 30,
+                              "height": 29,
+                              "fill": "#ffffffff",
+                              "cornerRadius": 50,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "Tuul2",
+                                  "name": "casesNextIco",
+                                  "width": 16,
+                                  "height": 16,
+                                  "iconFontName": "arrow-up-right",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#b8963e"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "JM6Zu",
+                              "name": "navCtaTxt",
+                              "fill": "#ffffffff",
+                              "content": "Start Your Case",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "vP2SH",
+                  "name": "Hero Right",
+                  "clip": true,
+                  "width": 770,
+                  "height": 650,
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 20,
+                      "id": "UsyVk",
+                      "name": "Lawyer Photo Bg",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./Gemini_Generated_Image_3wqxls3wqxls3wqx-Photoroom.png",
+                        "mode": "fill"
+                      },
+                      "width": 489,
+                      "height": 734
+                    },
+                    {
+                      "type": "frame",
+                      "id": "3kPJl",
+                      "name": "Frame 6",
+                      "clip": true,
+                      "width": 129,
+                      "height": 277,
+                      "layout": "vertical",
+                      "padding": [
+                        145,
+                        0
+                      ],
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "j7EZy",
+                          "name": "heroH1a",
+                          "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": 119,
+                          "content": "12K",
+                          "lineHeight": 1.05,
+                          "fontFamily": "Inter",
+                          "fontSize": 70,
+                          "fontWeight": "300"
+                        },
+                        {
+                          "type": "text",
+                          "id": "6eh6X",
+                          "name": "heroBody",
+                          "fill": "#ffffffff",
+                          "textGrowth": "fixed-width",
+                          "width": 107,
+                          "content": "satisfied client",
+                          "lineHeight": 1.65,
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "MNSXR",
+                          "name": "Frame 6",
+                          "clip": true,
+                          "width": 92,
+                          "height": 19,
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "Roqj3",
+                              "x": 0,
+                              "y": 0,
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "./pers1.png",
+                                "mode": "fill"
+                              },
+                              "width": 20,
+                              "height": 19,
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1,
+                                "fill": "#ffffffff"
+                              }
+                            },
+                            {
+                              "type": "ellipse",
+                              "id": "T5ccr",
+                              "x": 13,
+                              "y": 0,
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "./pers2.png",
+                                "mode": "fill"
+                              },
+                              "width": 20,
+                              "height": 19,
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1,
+                                "fill": "#ffffffff"
+                              }
+                            },
+                            {
+                              "type": "ellipse",
+                              "id": "Tqi0S",
+                              "x": 27,
+                              "y": 0,
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "./pers3.png",
+                                "mode": "fill"
+                              },
+                              "width": 20,
+                              "height": 19,
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1,
+                                "fill": "#ffffffff"
+                              }
+                            },
+                            {
+                              "type": "ellipse",
+                              "id": "9jBVR",
+                              "x": 40,
+                              "y": 0,
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "./pers4.png",
+                                "mode": "fill"
+                              },
+                              "width": 20,
+                              "height": 19,
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1,
+                                "fill": "#ffffffff"
+                              }
+                            },
+                            {
+                              "type": "ellipse",
+                              "id": "snGQp",
+                              "x": 54,
+                              "y": 0,
+                              "fill": {
+                                "type": "image",
+                                "enabled": true,
+                                "url": "./pers5.png",
+                                "mode": "fill"
+                              },
+                              "width": 20,
+                              "height": 19,
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1,
+                                "fill": "#ffffffff"
+                              }
+                            },
+                            {
+                              "type": "frame",
+                              "id": "y8P0n",
+                              "x": 69,
+                              "y": 0,
+                              "name": "Next Btn",
+                              "width": 20,
+                              "height": 19,
+                              "fill": "#ffffffff",
+                              "cornerRadius": 50,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "Rp3iP",
+                                  "name": "casesNextIco",
+                                  "width": 13,
+                                  "height": 13,
+                                  "iconFontName": "arrow-up-right",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#b8963e"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "DjCmC",
+              "x": 0,
+              "y": 0,
+              "name": "Nav",
+              "width": 1440,
+              "height": 76,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "2urk8",
+                  "x": 80,
+                  "y": 23.5,
+                  "name": "Logo",
+                  "fill": "#FFFFFF",
+                  "content": "Ledru-Rollin",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 22,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "jCLg7",
+                  "x": 501,
+                  "y": 30,
+                  "name": "Nav Links",
+                  "gap": 36,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "o42kM",
+                      "name": "nl1",
+                      "fill": "#ffffffff",
+                      "content": "About",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "tgjH4",
+                      "name": "nl2",
+                      "fill": "#ffffffff",
+                      "content": "Services",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "XmQsP",
+                      "name": "nl3",
+                      "fill": "#ffffffff",
+                      "content": "Process",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "bLjOk",
+                      "name": "nl4",
+                      "fill": "#ffffffff",
+                      "content": "Testimonials",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "F1TcA",
+                      "name": "nl5",
+                      "fill": "#ffffffff",
+                      "content": "FAQs",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "JFNuv",
+                  "x": 1182,
+                  "y": 16,
+                  "name": "Nav CTA",
+                  "width": 178,
+                  "height": 44,
+                  "fill": "#ffffffff",
+                  "cornerRadius": 50,
+                  "gap": 8,
+                  "padding": [
+                    0,
+                    10
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "fnh0E",
+                      "name": "Next Btn",
+                      "width": 30,
+                      "height": 29,
+                      "fill": "#B8963E",
+                      "cornerRadius": 50,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "JeEyq",
+                          "name": "casesNextIco",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "arrow-up-right",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFFFFF"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "7SsWf",
+                      "name": "navCtaTxt",
+                      "fill": "#000000ff",
+                      "content": "Start Your Case",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "0Lug1",
+              "x": 294,
+              "y": 602,
+              "name": "heroH1a",
+              "fill": "#ffffff80",
+              "textGrowth": "fixed-width",
+              "width": "fill_container(848)",
+              "content": "Ledru-Rollin",
+              "lineHeight": 1.05,
+              "fontFamily": "Playfair Display",
+              "fontSize": 140,
+              "fontWeight": "600"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Txifg",
+          "name": "02 About Me",
+          "width": "fill_container",
+          "fill": "#ffffffff",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            60,
+            100
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "5XzOL",
+              "name": "Frame 1",
+              "clip": true,
+              "width": 105,
+              "height": 15,
+              "gap": 5,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "sdxYM",
+                  "fill": "#b8963e",
+                  "width": 6,
+                  "height": 6
+                },
+                {
+                  "type": "text",
+                  "id": "5hqfD",
+                  "name": "casesTag",
+                  "fill": "#4f4f4fff",
+                  "content": "ABOUT ME",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "NyRrS",
+              "name": "Cases content",
+              "width": 1174,
+              "height": 268,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "KhHrq",
+                  "x": 110,
+                  "y": 23,
+                  "fill": "#000000",
+                  "textGrowth": "fixed-width-height",
+                  "width": 707,
+                  "height": 52,
+                  "content": "I am a dedicated legal professional with",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 40,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "gBpuX",
+                  "x": 817.8074588276122,
+                  "y": 37.30833120727891,
+                  "name": "num_span",
+                  "rotation": 12.870939087804468,
+                  "clip": true,
+                  "width": 83,
+                  "height": 43,
+                  "fill": "#1a1008",
+                  "cornerRadius": 50,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "74Cwx",
+                      "x": 15.099132803063071,
+                      "y": -6.856011021940276,
+                      "fill": "#ffffffff",
+                      "textGrowth": "fixed-width-height",
+                      "width": 73,
+                      "height": 47,
+                      "content": "20+",
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 35,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "yJDef",
+                  "x": 918,
+                  "y": 23,
+                  "fill": "#000000",
+                  "textGrowth": "fixed-width-height",
+                  "width": 157,
+                  "height": 52,
+                  "content": "years of",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 40,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Jeade",
+                  "x": 90,
+                  "y": 75,
+                  "fill": "#000000",
+                  "textGrowth": "fixed-width-height",
+                  "width": 1016,
+                  "height": 52,
+                  "content": "experience protecting client's rights and interests. With",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 40,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "BCOCd",
+                  "x": 143.1871967722733,
+                  "y": 127,
+                  "name": "num_span",
+                  "rotation": -9.621812948981212,
+                  "clip": true,
+                  "width": 87,
+                  "height": 43,
+                  "fill": "#1a1008",
+                  "cornerRadius": 50,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "YfghN",
+                      "x": 13.626505329902557,
+                      "y": -7.381428546401139,
+                      "fill": "#ffffffff",
+                      "textGrowth": "fixed-width-height",
+                      "width": 95,
+                      "height": 47,
+                      "content": "15k+",
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 35,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "TheoP",
+                  "x": 229,
+                  "y": 127,
+                  "fill": "#000000",
+                  "textGrowth": "fixed-width-height",
+                  "width": 790,
+                  "height": 52,
+                  "content": "cases handled, I provide clear guidance and",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 40,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "hJPux",
+                  "x": 271,
+                  "y": 184,
+                  "fill": "#000000",
+                  "textGrowth": "fixed-width-height",
+                  "width": 631,
+                  "height": 52,
+                  "content": "strategic, results-driven solutions.",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 40,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "SL3j8",
+              "name": "About CTA",
+              "gap": 20,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "mebvk",
+                  "name": "Nav CTA",
+                  "width": 178,
+                  "height": 44,
+                  "fill": "#b8963e",
+                  "cornerRadius": 50,
+                  "gap": 8,
+                  "padding": [
+                    0,
+                    10
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "cjrms",
+                      "name": "Next Btn",
+                      "width": 30,
+                      "height": 29,
+                      "fill": "#ffffffff",
+                      "cornerRadius": 50,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "GBLFh",
+                          "name": "casesNextIco",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "arrow-up-right",
+                          "iconFontFamily": "lucide",
+                          "fill": "#b8963e"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "uDDgl",
+                      "name": "navCtaTxt",
+                      "fill": "#ffffffff",
+                      "content": "Get a free quote",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "fPgTh",
+          "name": "02 Recent Cases",
+          "width": "fill_container",
+          "fill": "#ffffffff",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            80,
+            100
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "m8Gyp",
+              "name": "Cases Header",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "1kCwm",
+                  "name": "Header Left",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "HhpRY",
+                      "name": "Frame 1",
+                      "clip": true,
+                      "width": 105,
+                      "height": 15,
+                      "fill": "#FFFFFF",
+                      "gap": 5,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "kZbxb",
+                          "fill": "#b8963e",
+                          "width": 6,
+                          "height": 6
+                        },
+                        {
+                          "type": "text",
+                          "id": "P2QpN",
+                          "name": "casesTag",
+                          "fill": "#4f4f4fff",
+                          "content": "CASE RESULTS",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "k9Fkc",
+                      "name": "casesH2",
+                      "fill": "#18110A",
+                      "textGrowth": "fixed-width",
+                      "width": 520,
+                      "content": "Recent Cases with \nProven Results",
+                      "lineHeight": 0.9090909090909091,
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 44,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "C3sZs",
+                  "name": "Header Right",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "fHaHR",
+                      "name": "casesSubtxt",
+                      "fill": "#4f4f4f",
+                      "textGrowth": "fixed-width",
+                      "width": 360,
+                      "content": "Explore real cases where I provided effective legal\nsolutions and achieved results for my clients.",
+                      "lineHeight": 1.6,
+                      "textAlign": "right",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "SpDHZ",
+                      "name": "Nav Btns",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "p3VxO",
+                          "name": "Prev Btn",
+                          "width": 40,
+                          "height": 40,
+                          "cornerRadius": 50,
+                          "stroke": {
+                            "align": "outside",
+                            "thickness": 1,
+                            "fill": "#4f4f4f"
+                          },
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "TRlgX",
+                              "name": "casesPrevIco",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "chevron-left",
+                              "iconFontFamily": "lucide",
+                              "fill": "#b8963e"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Hadbg",
+                          "name": "Next Btn",
+                          "width": 40,
+                          "height": 40,
+                          "fill": "#B8963E",
+                          "cornerRadius": 50,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "V8h7n",
+                              "name": "casesNextIco",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "chevron-right",
+                              "iconFontFamily": "lucide",
+                              "fill": "#FFFFFF"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "PazqT",
+              "name": "Cases Cards",
+              "width": "fill_container",
+              "height": 599,
+              "gap": 24,
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Ry5Wr",
+                  "name": "Card 1",
+                  "clip": true,
+                  "width": 398,
+                  "height": 499,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 14,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "RBIZS",
+                      "x": 0,
+                      "y": 0,
+                      "name": "Img",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./avoc1.png",
+                        "mode": "fill"
+                      },
+                      "width": "fill_container(398)",
+                      "height": 499
+                    },
+                    {
+                      "type": "frame",
+                      "id": "SEB71",
+                      "x": 0,
+                      "y": 0,
+                      "name": "Layer",
+                      "clip": true,
+                      "width": 398,
+                      "height": 499,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "opacity": 0.5,
+                        "rotation": 0,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#000000ff",
+                            "position": 0
+                          },
+                          {
+                            "color": "#b8963e",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 14,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "tTSHw",
+                          "x": 25,
+                          "y": 24,
+                          "name": "Frame 2",
+                          "clip": true,
+                          "width": 19,
+                          "height": 18,
+                          "cornerRadius": 100,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#ffffffff"
+                          },
+                          "layout": "vertical",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "tLO0l",
+                              "fill": "#ffffffff",
+                              "width": 10,
+                              "height": 9,
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "cJQ9F",
+                          "x": 46,
+                          "y": 22,
+                          "name": "Frame 2",
+                          "clip": true,
+                          "width": 118,
+                          "height": 22,
+                          "cornerRadius": 50,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#ffffffff"
+                          },
+                          "layout": "vertical",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "aNS7n",
+                              "fill": "#ffffff",
+                              "content": "CRIMINAL DEFENCE",
+                              "fontFamily": "Inter",
+                              "fontSize": 10,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Tvqf8",
+                          "x": 25,
+                          "y": 46,
+                          "name": "Frame 2",
+                          "clip": true,
+                          "width": 65,
+                          "height": 22,
+                          "cornerRadius": 50,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#ffffffff"
+                          },
+                          "layout": "vertical",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "qJE93",
+                              "fill": "#ffffff",
+                              "content": "DEC 2025",
+                              "fontFamily": "Inter",
+                              "fontSize": 10,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Ymhaz",
+                          "x": 93,
+                          "y": 48,
+                          "name": "Frame 2",
+                          "clip": true,
+                          "width": 19,
+                          "height": 18,
+                          "cornerRadius": 100,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#ffffffff"
+                          },
+                          "layout": "vertical",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "PgeLG",
+                              "fill": "#ffffffff",
+                              "width": 10,
+                              "height": 9,
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "1WLSl",
+                          "x": 25,
+                          "y": 226,
+                          "fill": "#ffffffff",
+                          "textGrowth": "fixed-width-height",
+                          "width": 338,
+                          "height": 62,
+                          "content": "Some random taken case in\na random field",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 22,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "1wOvl",
+                          "x": 25,
+                          "y": 303,
+                          "name": "step1desc",
+                          "fill": "#ffffffff",
+                          "textGrowth": "fixed-width",
+                          "width": 322,
+                          "content": "I begin with an intensive one-on-one consultation to evaluate your case's unique merits and build a custom legal strategy.",
+                          "lineHeight": 1.65,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "OtE4Q",
+                          "x": 25,
+                          "y": 412,
+                          "name": "Nav CTA",
+                          "width": 153,
+                          "height": 44,
+                          "fill": "#ffffffff",
+                          "cornerRadius": 50,
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "qF14T",
+                              "name": "Next Btn",
+                              "width": 30,
+                              "height": 29,
+                              "fill": "#B8963E",
+                              "cornerRadius": 50,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "sR2ww",
+                                  "name": "casesNextIco",
+                                  "width": 16,
+                                  "height": 16,
+                                  "iconFontName": "arrow-up-right",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#FFFFFF"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "myP23",
+                              "name": "navCtaTxt",
+                              "fill": "#000000ff",
+                              "content": "Case Study",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "55Vm0",
+                  "name": "Card 2",
+                  "clip": true,
+                  "width": 397,
+                  "height": 596,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 14,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "ORNvi",
+                      "x": 0,
+                      "y": 0,
+                      "name": "Img",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./Gemini_Generated_Image_4o90qc4o90qc4o90.png",
+                        "mode": "fill"
+                      },
+                      "width": "fill_container(397)",
+                      "height": 599
+                    },
+                    {
+                      "type": "frame",
+                      "id": "uq3Rw",
+                      "x": 0,
+                      "y": 0,
+                      "name": "Layer",
+                      "clip": true,
+                      "width": 397,
+                      "height": 596,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "radial",
+                        "enabled": true,
+                        "opacity": 0.2,
+                        "rotation": 0,
+                        "size": {
+                          "width": 1,
+                          "height": 0.8
+                        },
+                        "colors": [
+                          {
+                            "color": "#b8963e",
+                            "position": 0
+                          },
+                          {
+                            "color": "#000000",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 14,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "aQn0X",
+                          "x": 31,
+                          "y": 523,
+                          "name": "Nav CTA",
+                          "width": 153,
+                          "height": 44,
+                          "fill": "#b8963e",
+                          "cornerRadius": 50,
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "2tR5W",
+                              "name": "Next Btn",
+                              "width": 30,
+                              "height": 29,
+                              "fill": "#ffffffff",
+                              "cornerRadius": 50,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "3Qg6c",
+                                  "name": "casesNextIco",
+                                  "width": 16,
+                                  "height": 16,
+                                  "iconFontName": "arrow-up-right",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#b8963e"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "yhZjL",
+                              "name": "navCtaTxt",
+                              "fill": "#ffffffff",
+                              "content": "Case Study",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "PbCJx",
+                          "x": 23,
+                          "y": 417,
+                          "name": "step1desc",
+                          "fill": "#ffffffff",
+                          "textGrowth": "fixed-width",
+                          "width": 322,
+                          "content": "I begin with an intensive one-on-one consultation to evaluate your case's unique merits and build a custom legal strategy.",
+                          "lineHeight": 1.65,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "fygNz",
+                          "x": 23,
+                          "y": 332,
+                          "fill": "#ffffffff",
+                          "textGrowth": "fixed-width-height",
+                          "width": 338,
+                          "height": 62,
+                          "content": "Some second random taken case in seconda random field",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 22,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "BElz9",
+                          "x": 45,
+                          "y": 26,
+                          "name": "Frame 2",
+                          "clip": true,
+                          "width": 147,
+                          "height": 22,
+                          "cornerRadius": 50,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#ffffffff"
+                          },
+                          "layout": "vertical",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "gaBrr",
+                              "fill": "#ffffff",
+                              "content": "PROPERTY & REAL ESTATE",
+                              "fontFamily": "Inter",
+                              "fontSize": 10,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "flRQi",
+                          "x": 23,
+                          "y": 28,
+                          "name": "Frame 2",
+                          "clip": true,
+                          "width": 19,
+                          "height": 18,
+                          "cornerRadius": 100,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#ffffffff"
+                          },
+                          "layout": "vertical",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "BfPt6",
+                              "fill": "#b8963e",
+                              "width": 10,
+                              "height": 9,
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "rIthy",
+                          "x": 23,
+                          "y": 50,
+                          "name": "Frame 2",
+                          "clip": true,
+                          "width": 66,
+                          "height": 22,
+                          "cornerRadius": 50,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#ffffffff"
+                          },
+                          "layout": "vertical",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "aUi8y",
+                              "fill": "#ffffff",
+                              "content": "NOV 2025",
+                              "fontFamily": "Inter",
+                              "fontSize": 10,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "qA2Dv",
+                          "x": 91,
+                          "y": 52,
+                          "name": "Frame 2",
+                          "clip": true,
+                          "width": 19,
+                          "height": 18,
+                          "cornerRadius": 100,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#ffffffff"
+                          },
+                          "layout": "vertical",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "Z4btq",
+                              "fill": "#b8963e",
+                              "width": 10,
+                              "height": 9,
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "NxxfM",
+                          "x": 23,
+                          "y": 332,
+                          "fill": "#ffffffff",
+                          "textGrowth": "fixed-width-height",
+                          "width": 338,
+                          "height": 62,
+                          "content": "Some second random taken case in seconda random field",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 22,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "m9LUc",
+                  "name": "Card 3",
+                  "clip": true,
+                  "width": 386,
+                  "height": 499,
+                  "cornerRadius": 14,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "bwbh5",
+                      "x": 0,
+                      "y": 0,
+                      "name": "Img",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./Gemini_Generated_Image_3wqxls3wqxls3wqx.png",
+                        "mode": "fill"
+                      },
+                      "width": "fill_container(386)",
+                      "height": 499
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Ir2cm",
+                      "x": 0,
+                      "y": 0,
+                      "name": "Layer",
+                      "clip": true,
+                      "width": 386,
+                      "height": 499,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "opacity": 0.5,
+                        "rotation": 0,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#000000ff",
+                            "position": 0
+                          },
+                          {
+                            "color": "#b8963e",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 14,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "B5PK5",
+                          "x": 29,
+                          "y": 423,
+                          "name": "Nav CTA",
+                          "width": 153,
+                          "height": 44,
+                          "fill": "#ffffffff",
+                          "cornerRadius": 50,
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "nvaXf",
+                              "name": "Next Btn",
+                              "width": 30,
+                              "height": 29,
+                              "fill": "#B8963E",
+                              "cornerRadius": 50,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "3MOLf",
+                                  "name": "casesNextIco",
+                                  "width": 16,
+                                  "height": 16,
+                                  "iconFontName": "arrow-up-right",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#FFFFFF"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "vxLhZ",
+                              "name": "navCtaTxt",
+                              "fill": "#000000ff",
+                              "content": "Case Study",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "kzdFP",
+                          "x": 29,
+                          "y": 322,
+                          "name": "step1desc",
+                          "fill": "#ffffffff",
+                          "textGrowth": "fixed-width",
+                          "width": 322,
+                          "content": "I begin with an intensive one-on-one consultation to evaluate your case's unique merits and build a custom legal strategy.",
+                          "lineHeight": 1.65,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "FdaUD",
+                          "x": 29,
+                          "y": 237,
+                          "fill": "#ffffffff",
+                          "textGrowth": "fixed-width-height",
+                          "width": 338,
+                          "height": 62,
+                          "content": "Some last random taken case in a random field",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 22,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "wJHKp",
+                          "x": 50,
+                          "y": 29,
+                          "name": "Frame 2",
+                          "clip": true,
+                          "width": 118,
+                          "height": 22,
+                          "cornerRadius": 50,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#ffffffff"
+                          },
+                          "layout": "vertical",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "zcHzs",
+                              "fill": "#ffffff",
+                              "content": "FAMILY & DIVORCE",
+                              "fontFamily": "Inter",
+                              "fontSize": 10,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "kgT32",
+                          "x": 29,
+                          "y": 31,
+                          "name": "Frame 2",
+                          "clip": true,
+                          "width": 19,
+                          "height": 18,
+                          "cornerRadius": 100,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#ffffffff"
+                          },
+                          "layout": "vertical",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "XYJFj",
+                              "fill": "#ffffffff",
+                              "width": 10,
+                              "height": 9,
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Nyy9h",
+                          "x": 29,
+                          "y": 53,
+                          "name": "Frame 2",
+                          "clip": true,
+                          "width": 67,
+                          "height": 22,
+                          "cornerRadius": 50,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#ffffffff"
+                          },
+                          "layout": "vertical",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "nbk7i",
+                              "fill": "#ffffff",
+                              "content": "OCT 2025",
+                              "fontFamily": "Inter",
+                              "fontSize": 10,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "d6Slf",
+                          "x": 97,
+                          "y": 55,
+                          "name": "Frame 2",
+                          "clip": true,
+                          "width": 19,
+                          "height": 18,
+                          "cornerRadius": 100,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#ffffffff"
+                          },
+                          "layout": "vertical",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "FthYI",
+                              "fill": "#ffffffff",
+                              "width": 10,
+                              "height": 9,
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ltyjx",
+          "name": "03 Process",
+          "width": "fill_container",
+          "fill": "#fefefeff",
+          "layout": "vertical",
+          "gap": 80,
+          "padding": [
+            80,
+            100
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "ZEW3N",
+              "name": "Cases Header",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "fw1Z3",
+                  "name": "Header Left",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "WEByu",
+                      "name": "Frame 1",
+                      "clip": true,
+                      "width": 105,
+                      "height": 15,
+                      "gap": 5,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "lRvUn",
+                          "fill": "#b8963e",
+                          "width": 6,
+                          "height": 6
+                        },
+                        {
+                          "type": "text",
+                          "id": "0oTo4",
+                          "name": "casesTag",
+                          "fill": "#4f4f4fff",
+                          "content": "CASE PROCESS",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "VKDpb",
+                      "name": "casesH2",
+                      "fill": "#18110A",
+                      "textGrowth": "fixed-width",
+                      "width": 520,
+                      "content": "Three Key\nProcess",
+                      "lineHeight": 0.9090909090909091,
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 44,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ieazz",
+                  "name": "Header Right",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "pedVk",
+                      "name": "casesSubtxt",
+                      "fill": "#4f4f4f",
+                      "textGrowth": "fixed-width",
+                      "width": 360,
+                      "content": "I deliver legal services with proven\nexperience and a result-driven focus",
+                      "lineHeight": 1.6,
+                      "textAlign": "right",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "G171r",
+                      "name": "Nav Btns",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "kb7wh",
+                          "name": "Next Btn",
+                          "width": 40,
+                          "height": 40,
+                          "cornerRadius": 50,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 2,
+                            "fill": "#b8963e"
+                          },
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "4m1Fx",
+                              "name": "casesNextIco",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "arrow-down",
+                              "iconFontFamily": "lucide",
+                              "fill": "#b8963e"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "dNo1e",
+              "name": "Frame 3",
+              "clip": true,
+              "width": 1235,
+              "height": 525,
+              "gap": 80,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "SL3bR",
+                  "name": "Img",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./099c2c49-6b25-4efb-a5a3-874de8530ca1.17e6fa253baf1fc8187511c95ab138b9-Photoroom.png",
+                    "mode": "fill"
+                  },
+                  "width": 416,
+                  "height": 523
+                },
+                {
+                  "type": "frame",
+                  "id": "FYy3Y",
+                  "name": "Process Steps",
+                  "width": 660,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "E8Uxd",
+                      "name": "Step 1",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": [
+                        0,
+                        32,
+                        32,
+                        32
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "drMLY",
+                          "name": "step1num",
+                          "fill": "#B8963E",
+                          "content": "01",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "dZrzV",
+                          "name": "step1title",
+                          "fill": "#18110A",
+                          "textGrowth": "fixed-width",
+                          "width": 580,
+                          "content": "Discovery & Strategic Analysis",
+                          "lineHeight": 1.2,
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "82nNp",
+                          "name": "step1desc",
+                          "fill": "#6B5F50",
+                          "textGrowth": "fixed-width",
+                          "width": 580,
+                          "content": "I begin with an intensive one-on-one consultation to evaluate your case's unique merits and build a custom legal strategy tailored to your objectives.",
+                          "lineHeight": 1.65,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "TvMQl",
+                      "name": "Step 2 Active",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 14,
+                      "stroke": {
+                        "align": "outside",
+                        "thickness": 1,
+                        "fill": "#E0DAD0"
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "5e7gm",
+                          "name": "step2num",
+                          "fill": "#B8963E",
+                          "content": "02",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "mP3Kp",
+                          "name": "step2title",
+                          "fill": "#18110A",
+                          "textGrowth": "fixed-width",
+                          "width": 580,
+                          "content": "Execution & Diligent Advocacy",
+                          "lineHeight": 1.2,
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "7KdqB",
+                          "name": "step2desc",
+                          "fill": "#6B5F50",
+                          "textGrowth": "fixed-width",
+                          "width": 580,
+                          "content": "This is the core of our partnership. I personally handle all complex filings, document drafting, and rigorous courtroom representation to ensure your interests are fully protected.",
+                          "lineHeight": 1.65,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "qRax4",
+                      "name": "Step 3",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": [
+                        32,
+                        32,
+                        0,
+                        32
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "gF6Vx",
+                          "name": "step3num",
+                          "fill": "#B8963E",
+                          "content": "03",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "lh6vy",
+                          "name": "step3title",
+                          "fill": "#18110A",
+                          "textGrowth": "fixed-width",
+                          "width": 580,
+                          "content": "Resolution & Finality",
+                          "lineHeight": 1.2,
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "qvIVj",
+                          "name": "step3desc",
+                          "fill": "#6B5F50",
+                          "textGrowth": "fixed-width",
+                          "width": 580,
+                          "content": "I push for a decisive conclusion through a favorable settlement or court judgment, then provide a comprehensive review to ensure all long-term legal obligations are met.",
+                          "lineHeight": 1.65,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "WVu0A",
+          "name": "04 Services",
+          "clip": true,
+          "width": "fill_container",
+          "height": 974,
+          "fill": "#3e2812ff",
+          "layout": "none",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "ZJn6V",
+              "x": 0,
+              "y": 0,
+              "name": "BG",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./gavel1.jpg",
+                "mode": "fill"
+              },
+              "width": 1440,
+              "height": 974
+            },
+            {
+              "type": "frame",
+              "id": "iGi0z",
+              "x": 0,
+              "y": 0,
+              "name": "Services Content",
+              "width": 1440,
+              "height": 974,
+              "fill": "#3d201080",
+              "layout": "vertical",
+              "gap": 60,
+              "padding": [
+                50,
+                100
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "qdGPI",
+                  "name": "Cases Header",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "SAFia",
+                      "name": "Header Left",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "eJToB",
+                          "name": "Frame 1",
+                          "clip": true,
+                          "width": 105,
+                          "height": 15,
+                          "gap": 5,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "76u9D",
+                              "fill": "#b8963e",
+                              "width": 6,
+                              "height": 6
+                            },
+                            {
+                              "type": "text",
+                              "id": "peopt",
+                              "name": "casesTag",
+                              "fill": "#ffffffff",
+                              "content": "MY SERVICES",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "RdI7x",
+                          "name": "casesH2",
+                          "fill": "#ffffffff",
+                          "textGrowth": "fixed-width",
+                          "width": 520,
+                          "content": "Services tailored\nto your needs",
+                          "lineHeight": 0.9090909090909091,
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 44,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "RSWDR",
+                      "name": "Header Right",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "dlPrm",
+                          "name": "casesSubtxt",
+                          "fill": "#ffffffff",
+                          "textGrowth": "fixed-width",
+                          "width": 360,
+                          "content": "I deliver trusted legal service with proven\nexperience and a result-driven focus",
+                          "lineHeight": 1.6,
+                          "textAlign": "right",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "orU7v",
+                          "name": "Nav CTA",
+                          "width": 178,
+                          "height": 44,
+                          "fill": "#ffffffff",
+                          "cornerRadius": 50,
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "2KHGO",
+                              "name": "Next Btn",
+                              "width": 30,
+                              "height": 29,
+                              "fill": "#B8963E",
+                              "cornerRadius": 50,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "LeCBY",
+                                  "name": "casesNextIco",
+                                  "width": 16,
+                                  "height": 16,
+                                  "iconFontName": "arrow-up-right",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#FFFFFF"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "sIUin",
+                              "name": "navCtaTxt",
+                              "fill": "#000000ff",
+                              "content": "Start Your Case",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Fi2kc",
+                  "name": "Service body",
+                  "width": "fill_container",
+                  "height": 673,
+                  "layout": "vertical",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "o2Jmp",
+                      "name": "service card",
+                      "clip": true,
+                      "width": 1237,
+                      "height": 104,
+                      "cornerRadius": 20,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 0.5,
+                        "fill": "#ffffffff"
+                      },
+                      "effect": {
+                        "type": "background_blur",
+                        "radius": 50
+                      },
+                      "padding": [
+                        0,
+                        30
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "MdZUf",
+                          "name": "step2title",
+                          "fill": "#ffffffff",
+                          "textGrowth": "fixed-width-height",
+                          "width": 31,
+                          "height": 25,
+                          "content": "01",
+                          "lineHeight": 1.2,
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "8r6MB",
+                          "name": "step2title",
+                          "fill": "#ffffffff",
+                          "textGrowth": "fixed-width-height",
+                          "width": 317,
+                          "height": 25,
+                          "content": "Execution & Diligent advocacy",
+                          "lineHeight": 1.2,
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "cCuGw",
+                          "name": "step2title",
+                          "fill": "#ffffffff",
+                          "textGrowth": "fixed-width-height",
+                          "width": 562,
+                          "height": 25,
+                          "content": "I begin with an intensive one-on-one consultation to evaluate your case's unique merits and build a custom legal strategy tailored to your objectives.",
+                          "lineHeight": 1.2,
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "300"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "vrZOS",
+                          "name": "Next Btn",
+                          "width": 46,
+                          "height": 41,
+                          "fill": "#ffffffff",
+                          "cornerRadius": 50,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "PZCOF",
+                              "name": "casesNextIco",
+                              "width": 21,
+                              "height": 23,
+                              "iconFontName": "arrow-up-right",
+                              "iconFontFamily": "lucide",
+                              "fill": "#b8963e"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "H6SBP",
+                      "name": "service card",
+                      "clip": true,
+                      "width": 1237,
+                      "height": 104,
+                      "cornerRadius": 20,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 0.5,
+                        "fill": "#ffffffff"
+                      },
+                      "effect": {
+                        "type": "background_blur",
+                        "radius": 50
+                      },
+                      "padding": [
+                        0,
+                        30
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "jafFt",
+                          "name": "step2title",
+                          "fill": "#ffffffff",
+                          "textGrowth": "fixed-width-height",
+                          "width": 31,
+                          "height": 25,
+                          "content": "02",
+                          "lineHeight": 1.2,
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "L2WEz",
+                          "name": "step2title",
+                          "fill": "#ffffffff",
+                          "textGrowth": "fixed-width-height",
+                          "width": 317,
+                          "height": 25,
+                          "content": "Civil litigation",
+                          "lineHeight": 1.2,
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ur7PG",
+                          "name": "step2title",
+                          "fill": "#ffffffff",
+                          "textGrowth": "fixed-width-height",
+                          "width": 562,
+                          "height": 25,
+                          "content": "I begin with an intensive one-on-one consultation to evaluate your case's unique merits and build a custom legal strategy tailored to your objectives.",
+                          "lineHeight": 1.2,
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "300"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ninBJ",
+                          "name": "Next Btn",
+                          "width": 46,
+                          "height": 41,
+                          "fill": "#ffffffff",
+                          "cornerRadius": 50,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "xrSCG",
+                              "name": "casesNextIco",
+                              "width": 21,
+                              "height": 23,
+                              "iconFontName": "arrow-up-right",
+                              "iconFontFamily": "lucide",
+                              "fill": "#b8963e"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "DulB1",
+                      "name": "service card",
+                      "clip": true,
+                      "width": 1237,
+                      "height": 104,
+                      "cornerRadius": 20,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 0.5,
+                        "fill": "#ffffffff"
+                      },
+                      "effect": {
+                        "type": "background_blur",
+                        "radius": 50
+                      },
+                      "padding": [
+                        0,
+                        30
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "cQvnh",
+                          "name": "step2title",
+                          "fill": "#ffffffff",
+                          "textGrowth": "fixed-width-height",
+                          "width": 31,
+                          "height": 25,
+                          "content": "03",
+                          "lineHeight": 1.2,
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "thvHi",
+                          "name": "step2title",
+                          "fill": "#ffffffff",
+                          "textGrowth": "fixed-width-height",
+                          "width": 317,
+                          "height": 25,
+                          "content": "Criminal defence",
+                          "lineHeight": 1.2,
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "QmPBy",
+                          "name": "step2title",
+                          "fill": "#ffffffff",
+                          "textGrowth": "fixed-width-height",
+                          "width": 562,
+                          "height": 25,
+                          "content": "I begin with an intensive one-on-one consultation to evaluate your case's unique merits and build a custom legal strategy tailored to your objectives.",
+                          "lineHeight": 1.2,
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "300"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "N2xm8",
+                          "name": "Next Btn",
+                          "width": 46,
+                          "height": 41,
+                          "fill": "#ffffffff",
+                          "cornerRadius": 50,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "bdwWx",
+                              "name": "casesNextIco",
+                              "width": 21,
+                              "height": 23,
+                              "iconFontName": "arrow-up-right",
+                              "iconFontFamily": "lucide",
+                              "fill": "#b8963e"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "F0fMe",
+                      "name": "service card",
+                      "clip": true,
+                      "width": 1237,
+                      "height": 104,
+                      "cornerRadius": 20,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 0.5,
+                        "fill": "#ffffffff"
+                      },
+                      "effect": {
+                        "type": "background_blur",
+                        "radius": 50
+                      },
+                      "padding": [
+                        0,
+                        30
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "7DZ33",
+                          "name": "step2title",
+                          "fill": "#ffffffff",
+                          "textGrowth": "fixed-width-height",
+                          "width": 31,
+                          "height": 25,
+                          "content": "04",
+                          "lineHeight": 1.2,
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Hx0u5",
+                          "name": "step2title",
+                          "fill": "#ffffffff",
+                          "textGrowth": "fixed-width-height",
+                          "width": 317,
+                          "height": 25,
+                          "content": "Family and Divorcelaw",
+                          "lineHeight": 1.2,
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "GDBhh",
+                          "name": "step2title",
+                          "fill": "#ffffffff",
+                          "textGrowth": "fixed-width-height",
+                          "width": 562,
+                          "height": 25,
+                          "content": "I begin with an intensive one-on-one consultation to evaluate your case's unique merits and build a custom legal strategy tailored to your objectives.",
+                          "lineHeight": 1.2,
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "300"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "VAzop",
+                          "name": "Next Btn",
+                          "width": 46,
+                          "height": 41,
+                          "fill": "#ffffffff",
+                          "cornerRadius": 50,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "B59w0",
+                              "name": "casesNextIco",
+                              "width": 21,
+                              "height": 23,
+                              "iconFontName": "arrow-up-right",
+                              "iconFontFamily": "lucide",
+                              "fill": "#b8963e"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "6CJ3e",
+                      "name": "service card",
+                      "clip": true,
+                      "width": 1237,
+                      "height": 104,
+                      "cornerRadius": 20,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 0.5,
+                        "fill": "#ffffffff"
+                      },
+                      "effect": {
+                        "type": "background_blur",
+                        "radius": 50
+                      },
+                      "padding": [
+                        0,
+                        30
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "YJX4S",
+                          "name": "step2title",
+                          "fill": "#ffffffff",
+                          "textGrowth": "fixed-width-height",
+                          "width": 31,
+                          "height": 25,
+                          "content": "05",
+                          "lineHeight": 1.2,
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "LnzzS",
+                          "name": "step2title",
+                          "fill": "#ffffffff",
+                          "textGrowth": "fixed-width-height",
+                          "width": 317,
+                          "height": 25,
+                          "content": "Execution & Diligent Advocacy",
+                          "lineHeight": 1.2,
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "lgZK7",
+                          "name": "step2title",
+                          "fill": "#ffffffff",
+                          "textGrowth": "fixed-width-height",
+                          "width": 562,
+                          "height": 25,
+                          "content": "I begin with an intensive one-on-one consultation to evaluate your case's unique merits and build a custom legal strategy tailored to your objectives.",
+                          "lineHeight": 1.2,
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "300"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "lSsZD",
+                          "name": "Next Btn",
+                          "width": 46,
+                          "height": 41,
+                          "fill": "#ffffffff",
+                          "cornerRadius": 50,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "b4Hc0",
+                              "name": "casesNextIco",
+                              "width": 21,
+                              "height": 23,
+                              "iconFontName": "arrow-up-right",
+                              "iconFontFamily": "lucide",
+                              "fill": "#b8963e"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "mWkeu",
+          "name": "05 FAQs",
+          "width": "fill_container",
+          "fill": "#ffffffff",
+          "layout": "vertical",
+          "gap": 64,
+          "padding": [
+            80,
+            100
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "oOpYH",
+              "name": "Cases Header",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "iHmOc",
+                  "name": "Header Left",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "3wmMG",
+                      "name": "Frame 1",
+                      "clip": true,
+                      "width": 105,
+                      "height": 15,
+                      "gap": 5,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "jFwYR",
+                          "fill": "#b8963e",
+                          "width": 6,
+                          "height": 6
+                        },
+                        {
+                          "type": "text",
+                          "id": "nP3TW",
+                          "name": "casesTag",
+                          "fill": "#4f4f4fff",
+                          "content": "CASE PROCESS",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "0YxuS",
+                      "name": "casesH2",
+                      "fill": "#18110A",
+                      "textGrowth": "fixed-width",
+                      "width": 520,
+                      "content": "Three Key\nProcess",
+                      "lineHeight": 0.9090909090909091,
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 44,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wIFPl",
+                  "name": "Header Right",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "3a7sP",
+                      "name": "casesSubtxt",
+                      "fill": "#4f4f4f",
+                      "textGrowth": "fixed-width",
+                      "width": 360,
+                      "content": "I deliver legal services with proven\nexperience and a result-driven focus",
+                      "lineHeight": 1.6,
+                      "textAlign": "right",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Q5rFb",
+                      "name": "About CTA",
+                      "gap": 20,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "qnyeq",
+                          "name": "Nav CTA",
+                          "width": 178,
+                          "height": 44,
+                          "fill": "#b8963e",
+                          "cornerRadius": 50,
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "siEgt",
+                              "name": "Next Btn",
+                              "width": 30,
+                              "height": 29,
+                              "fill": "#ffffffff",
+                              "cornerRadius": 50,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "6ap44",
+                                  "name": "casesNextIco",
+                                  "width": 16,
+                                  "height": 16,
+                                  "iconFontName": "arrow-up-right",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#b8963e"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "lebdO",
+                              "name": "navCtaTxt",
+                              "fill": "#ffffffff",
+                              "content": "Get a free quote",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "38txi",
+              "name": "Frame 4",
+              "clip": true,
+              "width": 1250,
+              "height": 488,
+              "gap": 44,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "YYlwy",
+                  "name": "Person Card",
+                  "width": 361,
+                  "cornerRadius": 14,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "l4lo5",
+                      "name": "Person Top",
+                      "width": 202,
+                      "layout": "vertical",
+                      "gap": 12,
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 50,
+                          "id": "xlQCj",
+                          "name": "Avatar",
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "./avoc2.png",
+                            "mode": "fill"
+                          },
+                          "width": 48,
+                          "height": 48
+                        },
+                        {
+                          "type": "text",
+                          "id": "qcD3B",
+                          "name": "faqsPersonName",
+                          "fill": "#18110A",
+                          "textGrowth": "fixed-width",
+                          "width": 198,
+                          "content": "Clear advice. Real answers.\nZero pressure.",
+                          "lineHeight": 1.4,
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 14,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "zmO5Y",
+                      "name": "faqsPersonDesc",
+                      "fill": "#6B5F50",
+                      "textGrowth": "fixed-width",
+                      "width": 237,
+                      "content": "I answer common questions about my services, fees, and consultations with full transparency.",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "UpMoO",
+                      "name": "Nav CTA",
+                      "width": 156,
+                      "height": 44,
+                      "fill": "#b8963e",
+                      "cornerRadius": 50,
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        10
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "FCOkY",
+                          "name": "Next Btn",
+                          "width": 30,
+                          "height": 29,
+                          "fill": "#ffffffff",
+                          "cornerRadius": 50,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "RRuyu",
+                              "name": "casesNextIco",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "arrow-up-right",
+                              "iconFontFamily": "lucide",
+                              "fill": "#b8963e"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "uhK36",
+                          "name": "navCtaTxt",
+                          "fill": "#ffffffff",
+                          "content": "Book a free call",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "j1rNQ",
+                  "name": "FAQs Right",
+                  "width": 838,
+                  "layout": "vertical",
+                  "gap": 15,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "nu5c9",
+                      "name": "FAQ 1",
+                      "width": "fill_container",
+                      "height": 62,
+                      "fill": "#ffffffff",
+                      "cornerRadius": 10,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 0.5,
+                        "fill": "#6c6c6c"
+                      },
+                      "padding": 20,
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "cxxuz",
+                          "name": "faq1txt",
+                          "fill": "#18110A",
+                          "content": "Do you offer an initial consultation?",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "2lwxe",
+                          "name": "Next Btn",
+                          "width": 41,
+                          "height": 40,
+                          "cornerRadius": 50,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#6c6c6c"
+                          },
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "qyz7P",
+                              "name": "casesNextIco",
+                              "width": 21,
+                              "height": 23,
+                              "iconFontName": "chevron-down",
+                              "iconFontFamily": "lucide",
+                              "fill": "#b8963e"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ZPZs7",
+                      "name": "FAQ 2 Open",
+                      "width": "fill_container",
+                      "fill": "#ffffffff",
+                      "cornerRadius": 10,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 0.5,
+                        "fill": "#6c6c6c"
+                      },
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "4LyNR",
+                          "name": "FAQ 2 Top",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "il6XX",
+                              "name": "faq2topTxt",
+                              "fill": "#18110A",
+                              "content": "How are legal fees calculated?",
+                              "fontFamily": "Inter",
+                              "fontSize": 15,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "q2ckI",
+                              "name": "Next Btn",
+                              "width": 41,
+                              "height": 40,
+                              "fill": "#b8963e",
+                              "cornerRadius": 50,
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1
+                              },
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "kcABM",
+                                  "name": "casesNextIco",
+                                  "width": 21,
+                                  "height": 23,
+                                  "iconFontName": "chevron-up",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#ffffffff"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "gQVjk",
+                          "name": "faq2answer",
+                          "fill": "#6B5F50",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Fees depend on the nature, complexity, and duration of your case. I make sure to explain all costs clearly before starting any work, so you always know what to expect. I also take the time to discuss any potential additional expenses upfront.",
+                          "lineHeight": 1.65,
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "iV5XT",
+                      "name": "FAQ 1",
+                      "width": "fill_container",
+                      "height": 62,
+                      "fill": "#ffffffff",
+                      "cornerRadius": 10,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 0.5,
+                        "fill": "#6c6c6c"
+                      },
+                      "padding": 20,
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "K1qJ7",
+                          "name": "faq1txt",
+                          "fill": "#18110A",
+                          "content": "Do you offer an initial consultation?",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "7fbo3",
+                          "name": "Next Btn",
+                          "width": 41,
+                          "height": 40,
+                          "cornerRadius": 50,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#6c6c6cff"
+                          },
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "fCdyX",
+                              "name": "casesNextIco",
+                              "width": 21,
+                              "height": 23,
+                              "iconFontName": "chevron-down",
+                              "iconFontFamily": "lucide",
+                              "fill": "#b8963e"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "gzyUs",
+                      "name": "FAQ 1",
+                      "width": "fill_container",
+                      "height": 62,
+                      "fill": "#ffffffff",
+                      "cornerRadius": 10,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 0.5,
+                        "fill": "#6c6c6c"
+                      },
+                      "padding": 20,
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "5ZTcV",
+                          "name": "faq1txt",
+                          "fill": "#18110A",
+                          "content": "Do you offer an initial consultation?",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "589K9",
+                          "name": "Next Btn",
+                          "width": 41,
+                          "height": 40,
+                          "cornerRadius": 50,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#6c6c6cff"
+                          },
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "glJsB",
+                              "name": "casesNextIco",
+                              "width": 21,
+                              "height": 23,
+                              "iconFontName": "chevron-down",
+                              "iconFontFamily": "lucide",
+                              "fill": "#b8963e"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "T4lFQ",
+                      "name": "FAQ 1",
+                      "width": "fill_container",
+                      "height": 62,
+                      "fill": "#ffffffff",
+                      "cornerRadius": 10,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 0.5,
+                        "fill": "#6c6c6c"
+                      },
+                      "padding": 20,
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "y2wdy",
+                          "name": "faq1txt",
+                          "fill": "#18110A",
+                          "content": "Do you offer an initial consultation?",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "gRgmG",
+                          "name": "Next Btn",
+                          "width": 41,
+                          "height": 40,
+                          "cornerRadius": 50,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#6c6c6cff"
+                          },
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "uAdIo",
+                              "name": "casesNextIco",
+                              "width": 21,
+                              "height": 23,
+                              "iconFontName": "chevron-down",
+                              "iconFontFamily": "lucide",
+                              "fill": "#b8963e"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Sz8p8",
+          "name": "06 Testimonials",
+          "width": "fill_container",
+          "fill": "#ffffffff",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            80,
+            100
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "xKdxv",
+              "name": "Cases Header",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "eFuSL",
+                  "name": "Header Left",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "weGXS",
+                      "name": "Frame 1",
+                      "clip": true,
+                      "width": 105,
+                      "height": 15,
+                      "fill": "#FFFFFF",
+                      "gap": 5,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "csVGh",
+                          "fill": "#b8963e",
+                          "width": 6,
+                          "height": 6
+                        },
+                        {
+                          "type": "text",
+                          "id": "KpIB6",
+                          "name": "casesTag",
+                          "fill": "#4f4f4fff",
+                          "content": "CASE RESULTS",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "LCrJL",
+                      "name": "casesH2",
+                      "fill": "#18110A",
+                      "textGrowth": "fixed-width",
+                      "width": 520,
+                      "content": "See what my\nclients say",
+                      "lineHeight": 0.9090909090909091,
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 44,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "w9SNe",
+                  "name": "Header Right",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "0vMDv",
+                      "name": "casesSubtxt",
+                      "fill": "#4f4f4f",
+                      "textGrowth": "fixed-width",
+                      "width": 360,
+                      "content": "see how my guidance has made a real\ndifference for my clients",
+                      "lineHeight": 1.6,
+                      "textAlign": "right",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "SIOrG",
+                      "name": "Nav Btns",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "2sJU8",
+                          "name": "Prev Btn",
+                          "width": 40,
+                          "height": 40,
+                          "cornerRadius": 50,
+                          "stroke": {
+                            "align": "outside",
+                            "thickness": 1,
+                            "fill": "#4f4f4f"
+                          },
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "poMw3",
+                              "name": "casesPrevIco",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "chevron-left",
+                              "iconFontFamily": "lucide",
+                              "fill": "#b8963e"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "IDWvp",
+                          "name": "Next Btn",
+                          "width": 40,
+                          "height": 40,
+                          "fill": "#B8963E",
+                          "cornerRadius": 50,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "6YRbe",
+                              "name": "casesNextIco",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "chevron-right",
+                              "iconFontFamily": "lucide",
+                              "fill": "#FFFFFF"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ElL22",
+              "name": "Cases Cards",
+              "width": "fill_container",
+              "height": 500,
+              "gap": 24,
+              "justifyContent": "center",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "NLfNH",
+                  "name": "Card 1",
+                  "clip": true,
+                  "width": 298,
+                  "height": 340,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 14,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 2,
+                    "fill": "#e0dad0"
+                  },
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "4WE6B",
+                      "x": 0,
+                      "y": 0,
+                      "name": "Layer",
+                      "clip": true,
+                      "width": 298,
+                      "height": 340,
+                      "cornerRadius": 14,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "FSILV",
+                          "x": 28,
+                          "y": 26,
+                          "name": "Next Btn",
+                          "width": 30,
+                          "height": 29,
+                          "fill": "#b8963e",
+                          "cornerRadius": 50,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "9bc7l",
+                              "name": "casesNextIco",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "briefcase-business",
+                              "iconFontFamily": "lucide",
+                              "fill": "#ffffffff"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "JDq6O",
+                          "x": 203,
+                          "y": 17,
+                          "name": "Rating Badge",
+                          "width": 95,
+                          "height": 38,
+                          "layout": "vertical",
+                          "padding": [
+                            8,
+                            16
+                          ],
+                          "alignItems": "end",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "NenLo",
+                              "name": "heroBadgeStars",
+                              "fill": "#B8963E",
+                              "content": "★★★★★",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "KCPJU",
+                              "name": "heroBadgeTxt",
+                              "fill": "#3d3d3dff",
+                              "textGrowth": "fixed-width",
+                              "width": 59,
+                              "content": "4.9 · Rating",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "SId94",
+                          "x": 28,
+                          "y": 111,
+                          "name": "step1desc",
+                          "fill": "#9a8b78",
+                          "textGrowth": "fixed-width",
+                          "width": 263,
+                          "content": "I begin with an intensive one-on-one consultation to evaluate your case's unique merits and build a custom legal strategy.",
+                          "lineHeight": 1.65,
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "normal",
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "text",
+                          "id": "05JsC",
+                          "x": 28,
+                          "y": 272,
+                          "name": "step1desc",
+                          "fill": "#303030ff",
+                          "textGrowth": "fixed-width",
+                          "width": 177,
+                          "content": "Business Consultant at NextGen Group Ltd.",
+                          "lineHeight": 1.65,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "yKm1n",
+                          "x": 28,
+                          "y": 249,
+                          "name": "step1desc",
+                          "fill": "#303030ff",
+                          "textGrowth": "fixed-width",
+                          "width": 46,
+                          "content": "Henry",
+                          "lineHeight": 1.65,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "49va2",
+                  "name": "Card 2",
+                  "clip": true,
+                  "width": 338,
+                  "height": 470,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 14,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "sQWoy",
+                      "x": 0,
+                      "y": 0,
+                      "name": "Img",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./cb27a2ad2816f863d178c51065ee731c.jpg",
+                        "mode": "fill"
+                      },
+                      "width": "fill_container(338)",
+                      "height": 470
+                    },
+                    {
+                      "type": "frame",
+                      "id": "7tOGN",
+                      "x": 0,
+                      "y": 0,
+                      "name": "Layer",
+                      "clip": true,
+                      "width": 338,
+                      "height": 470,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "radial",
+                        "enabled": true,
+                        "opacity": 0.2,
+                        "rotation": 0,
+                        "size": {
+                          "width": 1,
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#000000ff",
+                            "position": 0
+                          },
+                          {
+                            "color": "#b8963e",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 14,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "tZDhI",
+                          "x": 32,
+                          "y": 28,
+                          "name": "Next Btn",
+                          "width": 49,
+                          "height": 49,
+                          "fill": "#ffffffff",
+                          "cornerRadius": 50,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "76cVf",
+                              "name": "casesNextIco",
+                              "width": 27,
+                              "height": 28,
+                              "iconFontName": "users-three-light",
+                              "iconFontFamily": "phosphor",
+                              "fill": "#b8963e"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "CvtK7",
+                          "x": 229,
+                          "y": 28,
+                          "name": "Rating Badge",
+                          "width": 95,
+                          "height": 38,
+                          "layout": "vertical",
+                          "padding": [
+                            8,
+                            16
+                          ],
+                          "alignItems": "end",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "lYPt2",
+                              "name": "heroBadgeStars",
+                              "fill": "#B8963E",
+                              "content": "★★★★★",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "XZAbd",
+                              "name": "heroBadgeTxt",
+                              "fill": "#ffffffff",
+                              "textGrowth": "fixed-width",
+                              "width": 59,
+                              "content": "4.9 · Rating",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "ESyix",
+                          "x": 32,
+                          "y": 160,
+                          "name": "step1desc",
+                          "fill": "#ffffffff",
+                          "textGrowth": "fixed-width",
+                          "width": 263,
+                          "content": "I begin with an intensive one-on-one consultation to evaluate your case's unique merits and build a custom legal strategy.",
+                          "lineHeight": 1.65,
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "normal",
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "text",
+                          "id": "HalCw",
+                          "x": 32,
+                          "y": 394,
+                          "name": "step1desc",
+                          "fill": "#ffffffff",
+                          "textGrowth": "fixed-width",
+                          "width": 177,
+                          "content": "Business Consultant at NextGen Group Ltd.",
+                          "lineHeight": 1.65,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "8QiJZ",
+                          "x": 32,
+                          "y": 371,
+                          "name": "step1desc",
+                          "fill": "#ffffffff",
+                          "textGrowth": "fixed-width",
+                          "width": 46,
+                          "content": "Henry",
+                          "lineHeight": 1.65,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "XGFG5",
+                  "name": "Card 1",
+                  "clip": true,
+                  "width": 298,
+                  "height": 340,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 14,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 2,
+                    "fill": "#e0dad0"
+                  },
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "YZWmG",
+                      "x": 0,
+                      "y": 0,
+                      "name": "Layer",
+                      "clip": true,
+                      "width": 298,
+                      "height": 340,
+                      "cornerRadius": 14,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "LnMrw",
+                          "x": 28,
+                          "y": 26,
+                          "name": "Next Btn",
+                          "width": 30,
+                          "height": 29,
+                          "fill": "#b8963e",
+                          "cornerRadius": 50,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "cg9uO",
+                              "name": "casesNextIco",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "house",
+                              "iconFontFamily": "lucide",
+                              "fill": "#ffffffff"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "gr5ih",
+                          "x": 203,
+                          "y": 17,
+                          "name": "Rating Badge",
+                          "width": 95,
+                          "height": 38,
+                          "layout": "vertical",
+                          "padding": [
+                            8,
+                            16
+                          ],
+                          "alignItems": "end",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "i2lOe",
+                              "name": "heroBadgeStars",
+                              "fill": "#B8963E",
+                              "content": "★★★★★",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Kft3n",
+                              "name": "heroBadgeTxt",
+                              "fill": "#3d3d3dff",
+                              "textGrowth": "fixed-width",
+                              "width": 59,
+                              "content": "4.9 · Rating",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "HMoYZ",
+                          "x": 28,
+                          "y": 111,
+                          "name": "step1desc",
+                          "fill": "#9a8b78",
+                          "textGrowth": "fixed-width",
+                          "width": 263,
+                          "content": "I begin with an intensive one-on-one consultation to evaluate your case's unique merits and build a custom legal strategy.",
+                          "lineHeight": 1.65,
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "normal",
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "text",
+                          "id": "WtGaB",
+                          "x": 28,
+                          "y": 272,
+                          "name": "step1desc",
+                          "fill": "#303030ff",
+                          "textGrowth": "fixed-width",
+                          "width": 177,
+                          "content": "Business Consultant at NextGen Group Ltd.",
+                          "lineHeight": 1.65,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "B983R",
+          "name": "07 Contact",
+          "width": "fill_container",
+          "height": 938,
+          "fill": "#ffffffff",
+          "stroke": {
+            "align": "inside",
+            "thickness": 1
+          },
+          "layout": "vertical",
+          "gap": 5,
+          "padding": [
+            80,
+            100
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "CTJTk",
+              "name": "Cases Header",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "qu85D",
+                  "name": "Header Left",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Z7nwM",
+                      "name": "Frame 1",
+                      "clip": true,
+                      "width": 105,
+                      "height": 15,
+                      "gap": 5,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "TLHqP",
+                          "fill": "#b8963e",
+                          "width": 6,
+                          "height": 6
+                        },
+                        {
+                          "type": "text",
+                          "id": "AsrwS",
+                          "name": "casesTag",
+                          "fill": "#4f4f4fff",
+                          "content": "CASE PROCESS",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "f2rUX",
+                      "name": "casesH2",
+                      "fill": "#18110A",
+                      "textGrowth": "fixed-width",
+                      "width": 520,
+                      "content": "Start your\ncase today",
+                      "lineHeight": 0.9090909090909091,
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 44,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "AHTfk",
+                  "name": "Header Right",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "AtsFZ",
+                      "name": "casesSubtxt",
+                      "fill": "#4f4f4f",
+                      "textGrowth": "fixed-width",
+                      "width": 360,
+                      "content": "I deliver legal services with proven\nexperience and a result-driven focus",
+                      "lineHeight": 1.6,
+                      "textAlign": "right",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "axxm5",
+                      "name": "About CTA",
+                      "gap": 20,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "msEay",
+                          "name": "Nav CTA",
+                          "width": 178,
+                          "height": 44,
+                          "fill": "#b8963e",
+                          "cornerRadius": 50,
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "poWMd",
+                              "name": "Next Btn",
+                              "width": 30,
+                              "height": 29,
+                              "fill": "#ffffffff",
+                              "cornerRadius": 50,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "ZooEp",
+                                  "name": "casesNextIco",
+                                  "width": 16,
+                                  "height": 16,
+                                  "iconFontName": "arrow-up-right",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#b8963e"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "YRQ2q",
+                              "name": "navCtaTxt",
+                              "fill": "#ffffffff",
+                              "content": "Get a free quote",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "reHYB",
+              "name": "Cases Header",
+              "width": "fill_container",
+              "height": "fit_content(55)",
+              "fill": "#ffffffff",
+              "justifyContent": "space_between",
+              "alignItems": "end"
+            },
+            {
+              "type": "frame",
+              "id": "yMnAF",
+              "name": "Contact Left",
+              "width": 894,
+              "height": 541,
+              "fill": "#ffffffff",
+              "cornerRadius": 10,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#e0dad0"
+              },
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#0000001a",
+                "offset": {
+                  "x": 0,
+                  "y": 1
+                },
+                "blur": 30
+              },
+              "layout": "vertical",
+              "gap": 32,
+              "padding": 40,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "401dm",
+                  "name": "Form",
+                  "width": "fill_container",
+                  "height": 461,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "xgQed",
+                      "name": "Row 1",
+                      "width": "fill_container",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "4hhPE",
+                          "name": "Name",
+                          "width": "fill_container",
+                          "height": 52,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 8,
+                          "stroke": {
+                            "align": "outside",
+                            "thickness": 1,
+                            "fill": "#E0DAD0"
+                          },
+                          "padding": [
+                            0,
+                            16
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "oDyGJ",
+                              "name": "contactInput1txt",
+                              "fill": "#9A8B78",
+                              "content": "Your Name",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "OIBO0",
+                          "name": "Email",
+                          "width": "fill_container",
+                          "height": 52,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 8,
+                          "stroke": {
+                            "align": "outside",
+                            "thickness": 1,
+                            "fill": "#E0DAD0"
+                          },
+                          "padding": [
+                            0,
+                            16
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Fb46E",
+                              "name": "contactInput2txt",
+                              "fill": "#9A8B78",
+                              "content": "Email Address",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "PqUCf",
+                      "name": "Row 2",
+                      "width": "fill_container",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "o4xkK",
+                          "name": "Phone",
+                          "width": "fill_container",
+                          "height": 52,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 8,
+                          "stroke": {
+                            "align": "outside",
+                            "thickness": 1,
+                            "fill": "#E0DAD0"
+                          },
+                          "padding": [
+                            0,
+                            16
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "IWCq1",
+                              "name": "contactInput3txt",
+                              "fill": "#9A8B78",
+                              "content": "Phone Number",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "9Ay9R",
+                          "name": "Service",
+                          "width": "fill_container",
+                          "height": 52,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 8,
+                          "stroke": {
+                            "align": "outside",
+                            "thickness": 1,
+                            "fill": "#E0DAD0"
+                          },
+                          "padding": [
+                            0,
+                            16
+                          ],
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "NjQQ3",
+                              "name": "contactInput4txt",
+                              "fill": "#9A8B78",
+                              "content": "Legal Services",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "icon_font",
+                              "id": "bACke",
+                              "name": "contactInput4ico",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "chevron-down",
+                              "iconFontFamily": "lucide",
+                              "fill": "#9A8B78"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "mWi1i",
+                      "name": "Subject",
+                      "width": "fill_container",
+                      "height": 52,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 8,
+                      "stroke": {
+                        "align": "outside",
+                        "thickness": 1,
+                        "fill": "#E0DAD0"
+                      },
+                      "padding": [
+                        0,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "JObXT",
+                          "name": "contactSubjectTxt",
+                          "fill": "#9A8B78",
+                          "content": "Subject",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "9uCTE",
+                      "name": "Message",
+                      "width": "fill_container",
+                      "height": 120,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 8,
+                      "stroke": {
+                        "align": "outside",
+                        "thickness": 1,
+                        "fill": "#E0DAD0"
+                      },
+                      "padding": [
+                        14,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "hQ5IR",
+                          "name": "contactMessageTxt",
+                          "fill": "#9A8B78",
+                          "content": "Your Message",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "KXJbV",
+                      "name": "Checkbox Row",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 3,
+                          "id": "1xoTk",
+                          "name": "Checkbox",
+                          "width": 16,
+                          "height": 16,
+                          "stroke": {
+                            "align": "outside",
+                            "thickness": 1,
+                            "fill": "#D0C8BC"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "a5Y2e",
+                          "name": "contactCheckTxt",
+                          "fill": "#6B5F50",
+                          "content": "I confirm the information provided is accurate.",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "tjk3E",
+                      "name": "Nav CTA",
+                      "width": 166,
+                      "height": 44,
+                      "fill": "#b8963e",
+                      "cornerRadius": 50,
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        10
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "p9EjQ",
+                          "name": "Next Btn",
+                          "width": 30,
+                          "height": 29,
+                          "fill": "#ffffffff",
+                          "cornerRadius": 50,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "X8yto",
+                              "name": "casesNextIco",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "arrow-up-right",
+                              "iconFontFamily": "lucide",
+                              "fill": "#b8963e"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "0ZAZx",
+                          "name": "navCtaTxt",
+                          "fill": "#ffffffff",
+                          "content": "Send a message",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "4qR9a",
+              "name": "Cases Header",
+              "width": "fill_container",
+              "height": "fit_content(15)",
+              "justifyContent": "space_between",
+              "alignItems": "end"
+            },
+            {
+              "type": "text",
+              "id": "yzChH",
+              "name": "heroH1a",
+              "fill": "#2a1810",
+              "textGrowth": "fixed-width",
+              "width": 846,
+              "content": "Get in touch",
+              "lineHeight": 1.05,
+              "fontFamily": "Playfair Display",
+              "fontSize": 140,
+              "fontWeight": "600"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "AjMM6",
+          "name": "08 Footer",
+          "clip": true,
+          "width": "fill_container",
+          "height": 322,
+          "fill": "#18110A",
+          "layout": "none",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "oFM2F",
+              "x": 0,
+              "y": 0,
+              "name": "BG",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 180,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#2A1810",
+                    "position": 0
+                  },
+                  {
+                    "color": "#0D0804",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 1440,
+              "height": 322
+            },
+            {
+              "type": "frame",
+              "id": "5UPZO",
+              "x": 0,
+              "y": 0,
+              "name": "Footer Content",
+              "width": 1440,
+              "height": 347,
+              "layout": "vertical",
+              "padding": [
+                48,
+                100
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Kalkf",
+                  "name": "Footer Top",
+                  "width": "fill_container",
+                  "height": 197,
+                  "gap": 40,
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "nS4s0",
+                      "name": "Brand Col",
+                      "width": 280,
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "yDt15",
+                          "name": "footerLogo",
+                          "fill": "#FFFFFF",
+                          "content": "Ledru-Rollin",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 24,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "8yceq",
+                          "name": "footerTagline",
+                          "fill": "#9A8B78",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Your Trusted Legal Guidance",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "OPSXM",
+                          "name": "footerDesc",
+                          "fill": "#6A5E50",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Expert legal guidance for your personal and business needs. Let's build your strongest case together.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "DRokm",
+                      "name": "Quick Links Col",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Rz6ci",
+                          "name": "footerLinksTitle",
+                          "fill": "#FFFFFF",
+                          "content": "Quick Links",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Gt9a0",
+                          "name": "footerLink1",
+                          "fill": "#9A8B78",
+                          "content": "About",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "5PYpx",
+                          "name": "footerLink2",
+                          "fill": "#9A8B78",
+                          "content": "Services",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "K2J1x",
+                          "name": "footerLink3",
+                          "fill": "#9A8B78",
+                          "content": "Projects",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ALmM6",
+                          "name": "footerLink4",
+                          "fill": "#9A8B78",
+                          "content": "Support",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "LG0Dx",
+                          "name": "footerLink5",
+                          "fill": "#9A8B78",
+                          "content": "FAQs",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "tQLBT",
+                      "name": "Navigation Col",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "uLwOD",
+                          "name": "footerNavTitle",
+                          "fill": "#FFFFFF",
+                          "content": "Navigation",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "zCjiI",
+                          "name": "footerNav1",
+                          "fill": "#9A8B78",
+                          "content": "Privacy Policy",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "j6WIL",
+                          "name": "footerNav2",
+                          "fill": "#9A8B78",
+                          "content": "Terms & Conditions",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "cqr9L",
+                          "name": "footerNav3",
+                          "fill": "#9A8B78",
+                          "content": "Support",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "BFxIb",
+                          "name": "footerNav4",
+                          "fill": "#9A8B78",
+                          "content": "Testimonials",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "KhEq5",
+                          "name": "footerNav5",
+                          "fill": "#9A8B78",
+                          "content": "Contact",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "co7gS",
+                      "name": "Connect Col",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "xiXIr",
+                          "name": "footerContactTitle",
+                          "fill": "#FFFFFF",
+                          "content": "Connect Me",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "fCxkJ",
+                          "name": "footerEmail",
+                          "fill": "#9A8B78",
+                          "content": "info@ledruRollin.com",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "5cn7W",
+                          "name": "footerPhone1",
+                          "fill": "#9A8B78",
+                          "content": "+1 (234) 567 8901",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "cp7W6",
+                          "name": "footerPhone2",
+                          "fill": "#9A8B78",
+                          "content": "+1 (234) 567 8902",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "nfH7A",
+                          "name": "footerAddr",
+                          "fill": "#9A8B78",
+                          "content": "454 Mclaughlin, Suite 2800\nNew Brunswick , CA",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "rectangle",
+                  "id": "7ayVA",
+                  "name": "Divider",
+                  "fill": "#2E2010",
+                  "width": "fill_container",
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "0Hvpr",
+                  "name": "Footer Bottom",
+                  "width": "fill_container",
+                  "padding": [
+                    24,
+                    0
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "vls7t",
+                      "name": "footerCopy",
+                      "fill": "#6A5E50",
+                      "content": "© Alexander's Law © 2026",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "P5CzQ",
+                      "name": "footerRights",
+                      "fill": "#6A5E50",
+                      "content": "All Rights Reserved",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
